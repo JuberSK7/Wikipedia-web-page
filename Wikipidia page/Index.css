@@ -1,0 +1,183 @@
+#body {
+    margin: 0;
+    font-size: 15px;
+  }
+  #layout {
+    display: flex;
+  }
+  #sidebar {
+    flex: 1;
+    background-color: #f6f6f6;
+  }
+
+  #main {
+    flex: 12;
+  }
+
+  #logo-png {
+    height: 160px;
+    width: 160px;
+    padding-left: 10px;
+  }
+
+  #menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menu a {
+    text-decoration: none;
+    color: #0645ad;
+  }
+
+  #menu p {
+    border-bottom: 1px solid lightgray;
+  }
+
+  #account {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding-right: 15px;
+    padding: 5px;
+    color: #54595d;
+  }
+
+  #account p {
+    margin: 0;
+  }
+  #account .user {
+    font-size: 15px;
+  }
+  #account a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #0645ad;
+  }
+
+  #navbar {
+    display: flex;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #navbar-left {
+    flex: 1;
+    display: flex;
+    border-bottom: 1px solid lightskyblue;
+  }
+  #navbar-right {
+    flex: 12;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid lightskyblue;
+  }
+
+  #left-line {
+    border-left: 1px solid lightskyblue;
+  }
+  #navbar-left div,
+  #navbar-right div {
+    padding-right: 8px;
+    padding-left: 8px;
+    background-image: linear-gradient(
+      to top,
+      #77c1f6 0,
+      #e8f2f8 1px,
+      #ffffff 100%
+    );
+  }
+
+  #navbar-input {
+    width: 320px;
+    margin: 3px;
+  }
+
+  #details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #title {
+    display: flex;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+  }
+
+  #earth {
+    display: flex;
+    flex: 1;
+  }
+
+  #title-help {
+    flex: 12;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #title-help img {
+    height: 20px;
+    width: 20px;
+  }
+
+  #tag-line {
+    padding-left: 30px;
+  }
+
+  #earth-details {
+    display: flex;
+  }
+
+  #earth-details-left {
+    flex: 8;
+    padding-right: 10px;
+  }
+  #earth-details-right {
+    flex: 2;
+  }
+
+  #earth-header {
+    display: flex;
+    padding-left: 30%;
+    font-weight: bold;
+  }
+  #earth-header img {
+    height: 24px;
+    width: 24px;
+    margin-top: 12px;
+  }
+
+  #earth-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #earth-content img {
+    height: 220px;
+    width: 220px;
+    padding-left: 10%;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #0645ad;
+    cursor: pointer;
+  }
+
+ 
+  #e-title {
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+  }
